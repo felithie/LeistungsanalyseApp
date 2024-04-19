@@ -1,3 +1,4 @@
+
 def estimate_max_hr(age_years: int , sex: str) -> int:
  
   if sex == "m":
