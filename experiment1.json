@@ -1,1 +1,1 @@
-{"experiment_name": "exp", "date": "20.03.2000", "supervisor": "sd", "subject": "skfsdf"}
+{"experiment_name": "maxHR", "date": "22.04.2024", "supervisor": {"first_name": "Doc", "last_name": "Arzt"}, "subject": {"first_name": "Feli", "last_name": "Thie", "__birthdate__": "23.02.2004", "sex": "f", "age_years": 20, "max_hr": 206}}
