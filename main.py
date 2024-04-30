@@ -1,6 +1,6 @@
 import my_functions
 import my_classes as mc
-
+#Enthält alle user Eingaben und sorgt für die Ausführung von my classes
 if __name__ == "__main__":
   sex= input ("Geben sie Ihr Geschlecht an (m/f):")
   first_name= input("Geben sie Ihren Vornamen an:")

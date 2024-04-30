@@ -1,4 +1,4 @@
-
+#Braucht das Programm nicht mehr, da ich es jetzt über my_classes.py habe
 def estimate_max_hr(age_years: int , sex: str) -> int:
  
   if sex == "m":
