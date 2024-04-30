@@ -9,12 +9,14 @@ class Person():
         self.first_name= first_name
         self.last_name= last_name
     #person wird erstellt 
-    def put (self):
+
+    def put(self):
         data = {"name": self.first_name}
         data_json = json.dumps(data)
         response = requests.put(url, data=data_json)
         print(response.text)
-    #person wird auf webserver geladen 
+
+    #person wird lokal gespeichert 
     def save(self,filename):
         data= self.__dict__
         with open (filename, "w") as file:
